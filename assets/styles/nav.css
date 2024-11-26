@@ -1,0 +1,10 @@
+body {
+    padding-top: 70px; 
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 70px;
+    z-index: 1000;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+}

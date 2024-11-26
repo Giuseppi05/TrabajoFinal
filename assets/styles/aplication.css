@@ -1,0 +1,48 @@
+body{
+    overflow-x:hidden;
+}
+
+.app-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ratio {
+    border-radius: 10px;
+}
+
+.carousel-container {
+    max-width: 100%;
+    position: relative;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scroll-infinite 20s alternate infinite;
+}
+
+.app-box {
+    flex: 0 0 300px;
+    min-height: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes scroll-infinite {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

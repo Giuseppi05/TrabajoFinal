@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologías Cloud</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"
+    />
+    <link
+        rel="shortcut icon"
+        href="../assets/images/logo.png"
+        type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/styles/nav.css" />
+    <link rel="stylesheet" href="../assets/styles/history.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav 
+        class="navbar navbar-expand-lg fixed-top bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../assets/images/logo.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          <span class="mx-2">Tecnologías Cloud</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img
+              src="../assets/images/logo.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            <h5 class="offcanvas-title mx-2" id="offcanvasNavbarLabel">
+              Tecnologías Cloud
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
+                <a class="nav-link active" href="#">Historia</a>
+              </li>
+
+              <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
+                <a class="nav-link" href="./types.html">Tipos</a>
+              </li>
+
+              <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
+                <a class="nav-link" href="./aplication.html">Aplicaciones</a>
+              </li>
+
+              <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
+                <a class="nav-link" href="./galery.html">Galería</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Historia -->
+    <section class="container p-3 py-4">
+        <h2 class="text-center mb-4 text-primary fw-bold">Historia de las Tecnologías Cloud</h2>
+        <div class="timeline position-relative p-1">
+
+            <!-- 1960 -->
+            <div class="timeline-item izquierda d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-primary text-white">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">1960</h5>
+                    <p>John McCarthy propuso que la informática sería un servicio público nacional.</p>
+                </div>
+            </div>
+    
+            <!-- 1970 -->
+            <div class="timeline-item derecha d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-success text-white">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">1970</h5>
+                    <p>La digitalización llevó los mainframes al siguiente nivel, permitiendo acceso a múltiples usuarios.</p>
+                </div>
+            </div>
+    
+            <!-- 1999 -->
+            <div class="timeline-item izquierda d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-warning text-white">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">1999</h5>
+                    <p>Salesforce introdujo aplicaciones empresariales accesibles por navegador, marcando un hito en la nube.</p>
+                </div>
+            </div>
+    
+            <!-- 2006 -->
+            <div class="timeline-item derecha d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-danger text-white">
+                    <i class="fas fa-cart-arrow-down"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">2006</h5>
+                    <p>Amazon lanzó Amazon Web Services (AWS), estableciendo la base de las clouds modernas.</p>
+                </div>
+            </div>
+    
+            <!-- 2008 -->
+            <div class="timeline-item izquierda d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-info text-white">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">2008</h5>
+                    <p>HP, Intel y Yahoo crearon un laboratorio global de computación en la nube de código abierto.</p>
+                </div>
+            </div>
+    
+            <!-- 2014 -->
+            <div class="timeline-item derecha d-flex align-items-center mb-5 position-relative">
+                <div class="timeline-icon bg-secondary text-white">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="fw-bold">2014</h5>
+                    <p>Los principales proveedores, como Microsoft, Google e IBM, ofrecieron soluciones avanzadas en la nube.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer 
+      class="bg-dark text-center text-white py-5">
+      <div class="container">
+          <p class="mb-0">Desarrollado por <span class="fw-bold">Giuseppi Saavedra</span></p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
