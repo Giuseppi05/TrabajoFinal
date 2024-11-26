@@ -1,95 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tecnologías Cloud</title>
     <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
     <link
-        rel="shortcut icon"
-        href="./assets/images/logo.png"
-        type="image/x-icon"
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/styles/nav.css" />
     <link rel="stylesheet" href="./assets/styles/index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
-    <nav 
-        class="navbar navbar-expand-lg fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img
-            src="./assets/images/logo.png"
-            alt="Logo"
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top"
-          />
+          <img src="./assets/images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
           <span class="mx-2">Tecnologías Cloud</span>
         </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
+    
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <img
-              src="./assets/images/logo.png"
-              alt="Logo"
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-            <h5 class="offcanvas-title mx-2" id="offcanvasNavbarLabel">
-              Tecnologías Cloud
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+            <img src="./assets/images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+            <h5 class="offcanvas-title mx-2" id="offcanvasNavbarLabel">Tecnologías Cloud</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-
+    
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
                 <a class="nav-link active" href="#">Inicio</a>
               </li>
-
               <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
                 <a class="nav-link" href="./pages/history.html">Historia</a>
               </li>
-
               <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
                 <a class="nav-link" href="./pages/types.html">Tipos</a>
               </li>
-
               <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
                 <a class="nav-link" href="./pages/aplication.html">Aplicaciones</a>
               </li>
-
               <li class="nav-item px-2 text-center" data-bs-dismiss="offcanvas">
                 <a class="nav-link" href="./pages/galery.html">Galería</a>
               </li>
@@ -98,6 +61,7 @@
         </div>
       </div>
     </nav>
+    
 
     <!-- Slider -->
     <div
@@ -113,6 +77,7 @@
             alt="..."
           />
         </div>
+
         <div class="carousel-item" data-bs-interval="2000">
           <img
             src="./assets/images/slide2.png"
@@ -120,6 +85,7 @@
             alt="..."
           />
         </div>
+
         <div class="carousel-item">
           <img
             src="./assets/images/slide3.png"
@@ -151,149 +117,229 @@
     </div>
 
     <!-- Cartas -->
-    <section 
-        class="d-flex justify-content-around my-4 flex-column align-items-center flex-md-row">
-
-        <div class="card border-0 m-2" style="width: 18rem">
-            <img src="./assets/images/historia.png" class="card-img-top w-75 m-auto" alt="..." />
-            <div class="card-body text-center">
-                <h2 class="card-title text-primary">Historia</h2>
-                <p class="card-text">
-                    Descubre la historia y como han evolucionado las tecnologías Cloud hasta convertirse en un pilar de la innovación.
-                </p>
-                <button type="button" class="btn btn-primary px-4">Descubrir</button>
-            </div>
+    <section
+      class="d-flex justify-content-around my-4 flex-column align-items-center flex-md-row"
+    >
+      <div class="card border-0 m-2" style="width: 18rem">
+        <img
+          src="./assets/images/historia.png"
+          class="card-img-top w-75 m-auto"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h2 class="card-title text-primary">Historia</h2>
+          <p class="card-text">
+            Descubre la historia y como han evolucionado las tecnologías Cloud
+            hasta convertirse en un pilar de la innovación.
+          </p>
+          <button type="button" class="btn btn-primary px-4"><a class="text-white" href="./pages/history.html">Descubrir</a></button>
         </div>
+      </div>
 
-        <div class="card border-0 m-2" style="width: 18rem">
-            <img src="./assets/images/aplicaciones.png" class="card-img-top w-75 m-auto" alt="..." />
-            <div class="card-body text-center">
-                <h2 class="card-title text-primary">Aplicaciones</h2>
-                <p class="card-text">
-                    Conoce las aplicaciones y usos de las tecnologías Cloud y como contribuyen a optimizar el mundo y la tecnología.
-                </p>
-                <button type="button" class="btn btn-primary px-4">Conocer</button>
-            </div>
+      <div class="card border-0 m-2" style="width: 18rem">
+        <img
+          src="./assets/images/aplicaciones.png"
+          class="card-img-top w-75 m-auto"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h2 class="card-title text-primary">Aplicaciones</h2>
+          <p class="card-text">
+            Conoce las aplicaciones y usos de las tecnologías Cloud y como
+            contribuyen a optimizar el mundo y la tecnología.
+          </p>
+          <button type="button" class="btn btn-primary px-4"><a class="text-white" href="./pages/aplication.html">Conocer</a></button>
         </div>
+      </div>
 
-        <div class="card border-0 m-2" style="width: 18rem">
-            <img src="./assets/images/tipos.png" class="card-img-top w-75 m-auto" alt="..." />
-                <div class="card-body text-center">
-                <h2 class="card-title text-primary">Tipos</h2>
-                <p class="card-text">
-                    Descubre los diversos tipos de tecnologías en la nube y sumergete en un mundo de posibilidades alucinantes.
-                </p>
-                <button type="button" class="btn btn-primary px-4">Saber más</button>
-            </div>
+      <div class="card border-0 m-2" style="width: 18rem">
+        <img
+          src="./assets/images/tipos.png"
+          class="card-img-top w-75 m-auto"
+          alt="..."
+        />
+        <div class="card-body text-center">
+          <h2 class="card-title text-primary">Tipos</h2>
+          <p class="card-text">
+            Descubre los diversos tipos de tecnologías en la nube y sumergete en
+            un mundo de posibilidades alucinantes.
+          </p>
+          <button type="button" class="btn btn-primary px-4"><a class="text-white" href="./pages/types.html">Saber más</a></button>
         </div>
-
+      </div>
     </section>
 
     <!-- Logos -->
-    <section 
-      class="d-flex logos">
-        <div class="marquee w-100">
-            <div class="marquee-content py-4">
-                <img src="./assets/images/logos/amazon_s3.png" alt="Amazon S3">
-                <img src="./assets/images/logos/app_engine.png" alt="App Engine">
-                <img src="./assets/images/logos/aws.png" alt="AWS">
-                <img src="./assets/images/logos/azure.png" alt="Azure">
-                <img src="./assets/images/logos/cloud_storage.png" alt="Cloud Storage">
-                <img src="./assets/images/logos/docker.png" alt="Docker">
-                <img src="./assets/images/logos/google_cloud.png" alt="Google Cloud">
-                <img src="./assets/images/logos/heroku.png" alt="Heroku">
-                <!-- Duplicamos las imágenes -->
-                <img src="./assets/images/logos/amazon_s3.png" alt="Amazon S3">
-                <img src="./assets/images/logos/app_engine.png" alt="App Engine">
-                <img src="./assets/images/logos/aws.png" alt="AWS">
-                <img src="./assets/images/logos/azure.png" alt="Azure">
-                <img src="./assets/images/logos/cloud_storage.png" alt="Cloud Storage">
-                <img src="./assets/images/logos/docker.png" alt="Docker">
-                <img src="./assets/images/logos/google_cloud.png" alt="Google Cloud">
-                <img src="./assets/images/logos/heroku.png" alt="Heroku">
-            </div>
+    <section class="d-flex logos">
+      <div class="marquee w-100">
+        <div class="marquee-content py-4">
+          <img src="./assets/images/logos/amazon_s3.png" alt="Amazon S3" />
+          <img src="./assets/images/logos/app_engine.png" alt="App Engine" />
+          <img src="./assets/images/logos/aws.png" alt="AWS" />
+          <img src="./assets/images/logos/azure.png" alt="Azure" />
+          <img src="./assets/images/logos/cloud_storage.png" alt="Cloud Storage" />
+          <img src="./assets/images/logos/docker.png" alt="Docker" />
+          <img src="./assets/images/logos/google_cloud.png" alt="Google Cloud" />
+          <img src="./assets/images/logos/heroku.png" alt="Heroku" />
+          <img src="./assets/images/logos/amazon_s3.png" alt="Amazon S3" />
+          <img src="./assets/images/logos/app_engine.png" alt="App Engine" />
+          <img src="./assets/images/logos/aws.png" alt="AWS" />
+          <img src="./assets/images/logos/azure.png" alt="Azure" />
+          <img src="./assets/images/logos/cloud_storage.png" alt="Cloud Storage" />
+          <img src="./assets/images/logos/docker.png" alt="Docker" />
+          <img src="./assets/images/logos/google_cloud.png" alt="Google Cloud" />
+          <img src="./assets/images/logos/heroku.png" alt="Heroku" />
         </div>
+      </div>
     </section>
-    
+
     <!-- Qué es? -->
-    <section
-        class="d-flex flex-column flex-md-row third bg-light">
-        <div class="col-12 col-md-6 p-4 d-flex justify-content-center align-items-center">
-            <img src="./assets/images/cloud-image.png" class="img-fluid imagen" alt="">
+    <section class="d-flex flex-column flex-md-row third bg-light">
+      <div
+        class="col-12 col-md-6 p-4 d-flex justify-content-center align-items-center"
+      >
+        <img
+          src="./assets/images/cloud-image.png"
+          class="img-fluid imagen"
+          alt=""
+        />
+      </div>
+      <div class="col-12 col-md-6 p-3 p-md-5">
+        <h2 class="text-center text-md-end text-primary mb-4">
+          Expande tu mundo con los servicios Cloud al alcance de tu mano.
+        </h2>
+        <div
+          class="d-flex justify-content-md-end justify-content-center align-items-center mb-4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="currentColor"
+            class="bi bi-cloud me-2 danger d-none d-md-block"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+            />
+          </svg>
+          <h5 class="text-center text-md-end">
+            ¿Qué son las tecnologías Cloud?
+          </h5>
         </div>
-        <div class="col-12 col-md-6 p-3 p-md-5">
-            <h2 class="text-center text-md-end text-primary mb-4">Expande tu mundo con los servicios Cloud al alcance de tu mano.</h2>
-            <div class="d-flex justify-content-md-end justify-content-center align-items-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cloud me-2 danger d-none d-md-block" viewBox="0 0 16 16">
-                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
-                </svg>
-                <h5 class="text-center text-md-end">¿Qué son las tecnologías Cloud?</h5>
-            </div>
-            <p class="text-center text-md-end lead">De una manera simple, la computación en la nube (cloud computing) es una tecnología que permite acceso remoto a softwares, almacenamiento de archivos y procesamiento de datos por medio de Internet, siendo así, una alternativa a la ejecución en una computadora personal o servidor local. En el modelo de nube, no hay necesidad de instalar aplicaciones localmente en computadoras. La computación en la nube ofrece a los individuos y a las empresas la capacidad de un pool de recursos de computación con buen mantenimiento, seguro, de fácil acceso y bajo demanda.</p>
-        </div>
+        <p class="text-center text-md-end lead">
+          De una manera simple, la computación en la nube (cloud computing) es
+          una tecnología que permite acceso remoto a softwares, almacenamiento
+          de archivos y procesamiento de datos por medio de Internet, siendo
+          así, una alternativa a la ejecución en una computadora personal o
+          servidor local. En el modelo de nube, no hay necesidad de instalar
+          aplicaciones localmente en computadoras. La computación en la nube
+          ofrece a los individuos y a las empresas la capacidad de un pool de
+          recursos de computación con buen mantenimiento, seguro, de fácil
+          acceso y bajo demanda.
+        </p>
+      </div>
     </section>
-    
+
     <!-- Formulario -->
-    <section
-        class="d-flex flex-column flex-md-row third">
+    <section class="d-flex flex-column flex-md-row third">
+      <div class="col-12 col-md-6 p-4 bg-white">
+        <h3 class="text-center text-md-start text-primary mb-4">
+          Contactanos y conoce más sobre el potencial de las tecnologías Cloud.
+        </h3>
 
-        <div class="col-12 col-md-6 p-4 bg-white">
+        <p class="text-center text-md-start mb-4">
+          Ingrese sus datos en el formulario:
+        </p>
 
-          <h3 class="text-center text-md-start text-primary mb-4">Contactanos y conoce más sobre el potencial de las tecnologías Cloud.</h3>
-
-          <p class="text-center text-md-start mb-4">Ingrese sus datos en el formulario:</p>
-
-          <form action="">
-            <div class="w-100 d-flex mb-3">
-              <div class="me-2 w-50">
-                <label for="exampleFormControlInput1" class="form-label">Ingrese su nombre:</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-
-              <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Ingrese su apellido:</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
+        <form action="">
+          <div class="w-100 d-flex mb-3">
+            <div class="me-2 w-50">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Ingrese su nombre:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder=""
+              />
             </div>
 
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Ingrese su correo</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            <div class="w-50">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Ingrese su apellido:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder=""
+              />
             </div>
-            
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Ingrese su número de teléfono</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
+          </div>
 
-            <div class="mb-4">
-              <label for="exampleFormControlTextarea1" class="form-label">Ingrese el asunto:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Ingrese su correo</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=""
+            />
+          </div>
 
-            <button type="button" class="btn btn-primary w-100">Enviar datos</button>
-            
-          </form>
-        </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Ingrese su número de teléfono</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=""
+            />
+          </div>
 
-        <div class="col-12 col-md-6 d-none d-md-block">
-            <img src="./assets/images/section_3.png" class="img-fluid" alt="">
-        </div>
-        
+          <div class="mb-4">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Ingrese el asunto:</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button type="button" class="btn btn-primary w-100">
+            Enviar datos
+          </button>
+        </form>
+      </div>
+
+      <div class="col-12 col-md-6 d-none d-md-block">
+        <img src="./assets/images/section_3.png" class="img-fluid" alt="" />
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer 
-      class="bg-dark text-center text-white py-5">
+    <footer class="bg-dark text-center text-white py-5">
       <div class="container">
-          <p class="mb-0">Desarrollado por <span class="fw-bold">Giuseppi Saavedra</span></p>
+        <p class="mb-0">
+          Desarrollado por <span class="fw-bold">Giuseppi Saavedra</span>
+        </p>
       </div>
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./assets/js/index.js"></script>
-</body>
+  </body>
 </html>

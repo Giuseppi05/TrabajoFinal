@@ -23,6 +23,10 @@
     transform: scale(1.1);
 }
 
+.card .btn a{
+    text-decoration: none;
+}
+
 .third .imagen {
     opacity: 0;
     transform: translateX(-50%);
